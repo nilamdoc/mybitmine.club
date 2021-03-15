@@ -1,0 +1,2 @@
+# mybitmine.club
+mybitmine
