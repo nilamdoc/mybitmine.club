@@ -25,10 +25,10 @@
 
   </head>
 
-<body>
+<body class="bgcolor">
  <div class="page" id="app">
   <?php echo $this->_render('element', 'header', compact('pagetotaltime'));?>
-  <div class="page-content">
+  <div class="page-content bgcolor">
   <?php echo $this->content(); ?>
   
 <?php 

@@ -1,32 +1,63 @@
-.szhalf{font-size:calc(.8em + .5vw)}
-.szforth{font-size:calc(.3em + .5vw)}
+/* Your app custom styles here */
+:root {
+  --f7-theme-color: #998200;
+  --f7-theme-color-rgb: 153, 130, 0;
+  --f7-theme-color-shade: #705f00;
+  --f7-theme-color-tint: #c2a500;
+}
 .sz1{font-size:calc(1em + 1vw)}
 .sz2{font-size:calc(1em + 2vw)}
 .sz3{font-size:calc(1em + 3vw)}
 .sz4{font-size:calc(1em + 4vw)}
-.sz1b{font-size:calc(1em + 1vw);font-weight:bold}
-.sz2b{font-size:calc(1em + 2vw);font-weight:bold}
-.sz3b{font-size:calc(1em + 3vw);font-weight:bold}
-.sz4b{font-size:calc(1em + 4vw);font-weight:bold}
-.sz10{
- font-size: 10px;
-}
-.sz11{
- font-size: 11px;
-}
-.sz12{
- font-size: 12px;
-}
-.sz14{
- font-size: 14px;
-}
-.sz16{
- font-size: 16px;
-}
-.sz18{
- font-size: 16px;
-}
 
+.c30{color: #998200}
+.c50{color: #ffd700}
+.c70{color: #ffe866}
+
+.sz10{font-size:10px}
+.sz11{font-size:11px}
+.sz12{font-size:12px}
+.sz13{font-size:13px}
+
+.trans3{opacity:0.3;}
+.trans4{opacity:0.4;}
+.trans5{opacity:0.5;}
+.trans6{opacity:0.6;}
+.trans7{opacity:0.7;}
+.trans8{opacity:0.8;}
+.trans9{opacity:0.9;}
+
+.toast_red{background-color:red}
+.toast_green{background-color:green}
+.toast_blue{background-color:blue}
+.toast_black{background-color:black}
+
+.Viga{
+ font-family: 'Viga', sans-serif;
+}
+.Rale{
+ font-family: 'Raleway-Medium', sans-serif;
+}
+.Open{
+ font-family: 'Open Sans', sans-serif;
+}
+.Bebas{
+ font-family: 'Bebas Neue', cursive;
+}
+.Mont{
+ font-family: 'Montserrat', sans-serif;
+}
+.Lora{
+ font-family: 'Lora', serif;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.bgcolor{
+ background-color:#111111;
+ color:red;
+}
 @font-face {
   font-family: "Barlow-Bold";
   src: url("../fonts/Barlow-Bold.eot"); /* IE9 Compat Modes */
